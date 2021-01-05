@@ -1,4 +1,4 @@
-package pkg2dgamesframework;
+package framework;
 
 import java.awt.Color;
 import java.awt.Graphics;
