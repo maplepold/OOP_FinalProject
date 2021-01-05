@@ -67,10 +67,10 @@ public class CactusGroup {
 			
 			int deltaY = getRandomY();
 			
-			cn = new Cactus(830+i*300, bottomCactusY + deltaY, 74, 400);
+			cn = new Cactus(830+i*300, bottomCactusY + deltaY, 80, 400);
 			cactus.push(cn);
 			
-			cn = new Cactus(830+i*300, topCactusY + deltaY, 74, 400);
+			cn = new Cactus(830+i*300, topCactusY + deltaY, 80, 400);
 			cactus.push(cn);
 
 		}
