@@ -148,10 +148,10 @@ public class Balloon extends GameScreen {
 		
 		if(CurrentScreen == GAMEOVER_SCREEN) {
 			g2.setColor(Color.DARK_GRAY);
-			g2.fillRect(310, 250, 242, 60);
+			g2.fillRect(310, 250, 180, 60);
 			g2.setColor(Color.GREEN);
 			g2.setFont(normalfont);
-			g2.drawString("REPLAY", 312, 300);
+			g2.drawString("REPLAY", 318, 300);
 		}
 		g2.setColor(Color.black);
 		g2.setFont(normalfont1);
