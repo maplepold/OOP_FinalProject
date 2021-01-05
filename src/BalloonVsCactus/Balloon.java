@@ -48,13 +48,13 @@ public class Balloon extends GameScreen {
 		
 		balloon_anim = new framework.Animation(70);
 		AFrameOnImage f;
-		f= new AFrameOnImage(0, 0, 53,70);
+		f= new AFrameOnImage(0, 0, 54,70);
 		balloon_anim.AddFrame(f);
-		f= new AFrameOnImage(58, 0, 53,70);
+		f= new AFrameOnImage(58, 0, 54,70);
 		balloon_anim.AddFrame(f);
-		f= new AFrameOnImage(115, 0, 53,70);
+		f= new AFrameOnImage(115, 0, 54,70);
 		balloon_anim.AddFrame(f);			
-		f= new AFrameOnImage(58, 0, 53,70);
+		f= new AFrameOnImage(58, 0, 54,70);
 		balloon_anim.AddFrame(f);		
 		
 		balloon = new Loon(350, 250, 50, 50);
@@ -123,7 +123,7 @@ public class Balloon extends GameScreen {
 	public void GAME_PAINT(Graphics2D g2) {
 		Font normalfont = new Font("DeluxeFont Regular", Font.BOLD, 40);
 		Font normalfont1 = new Font("DeluxeFont Regular", Font.BOLD, 15);
-		g2.setColor(Color.decode("#b8daef"));
+		g2.setColor(Color.decode("#9dcfee"));
 		g2.fillRect(0, 0, MASTER_WIDTH, MASTER_HEIGHT);
 		
 		cactusGroup.paint(g2);
